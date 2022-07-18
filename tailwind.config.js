@@ -13,6 +13,9 @@ module.exports = {
         },
         grey: {
           DEFAULT: "#21312A",
+          800: "#2D2230",
+          600: "#85958F",
+          400: "#9DABA6",
           100: "#D9DCDF",
         },
         primary: {
@@ -21,6 +24,10 @@ module.exports = {
         secondary: {
           DEFAULT: "#ED1E79",
         },
+      },
+      spacing: {
+        18: "4.5rem",
+        22: "5.5rem",
       },
       fontFamily: {
         sans: ["Inter"],
@@ -37,8 +44,7 @@ module.exports = {
         "2md": ["1.25rem", "30px"], // 20px
 
         lg: "2rem", // 30px
-
-        xl: ["2.5rem", "29px"], // 40px
+        xl: ["2.5rem", "48px"], // 40px
 
         "2xl": ["2.75rem", "56px"], // 44px
 
