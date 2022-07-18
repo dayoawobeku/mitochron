@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  input {
+    @apply bg-white-400 outline outline-1 outline-grey-600 py-[10px] px-4 h-14 w-full rounded placeholder:text-grey-400;
+  }
+
+  input[type="checkbox"] {
+    @apply cursor-pointer accent-primary;
+  }
+
+  textarea {
+    @apply bg-white-400 w-full h-32 px-4 pt-3 rounded outline outline-1 outline-grey-600 placeholder:text-grey-400;
+  }
+
+  label {
+    @apply flex flex-col items-start max-w-full text-sm font-medium text-body;
+  }
+
+  input:focus-visible,
+  input:focus-within,
+  textarea:focus-visible {
+    @apply outline outline-1 outline-primary;
+  }
+}
