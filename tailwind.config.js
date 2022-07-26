@@ -1,7 +1,10 @@
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html", "./thank-you.html"],
   theme: {
     extend: {
+      screens: {
+        "3xl": "1800px",
+      },
       colors: {
         body: "#606263",
         white: {
@@ -52,5 +55,4 @@ module.exports = {
       },
     },
   },
-  plugins: [],
 };

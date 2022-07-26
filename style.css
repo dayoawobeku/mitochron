@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer components {
   input {
     @apply bg-white-400 outline outline-1 outline-grey-600 py-[10px] px-4 h-14 w-full rounded placeholder:text-grey-400;
@@ -12,7 +16,7 @@
   }
 
   textarea {
-    @apply bg-white-400 w-full h-32 px-4 pt-3 rounded outline outline-1 outline-grey-600 placeholder:text-grey-400;
+    @apply w-full h-32 px-4 pt-3 rounded bg-white-400 outline outline-1 outline-grey-600 placeholder:text-grey-400;
   }
 
   label {
@@ -23,5 +27,9 @@
   input:focus-within,
   textarea:focus-visible {
     @apply outline outline-1 outline-primary;
+  }
+
+  .hero {
+    background-image: url("/images/hero-art.svg");
   }
 }
