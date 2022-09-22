@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./images/favicon.png" />
+    <link rel="icon" href="./images/favicon.jpg" />
     <link href="output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,73 +12,95 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Mitochron</title>
+    <title>
+      Mitochron Hub - Technology solutions to help your business grow
+    </title>
   </head>
   <body>
     <div class="relative bg-white-400">
       <!-- nav -->
-      <div class="max-w-[1200px] mx-auto w-full px-5">
-        <nav class="py-[29px] flex items-center justify-between">
-          <a href="#" class="w-[153px] h-[30px] aspect-auto">
+      <div class="sticky top-0 z-10 bg-white-400">
+        <nav
+          class="py-4 md:py-8 flex items-center justify-between max-w-[1200px] mx-auto px-4"
+        >
+          <a
+            href="#"
+            class="w-[153px] h-fit sm:w-[209px] sm:h-[31px] aspect-auto"
+          >
             <img
               src="./images/logo.png"
               alt=""
               class="mix-blend-multiply"
-              width="153"
-              height="30"
+              width="209"
+              height="31"
             />
           </a>
           <div class="flex items-center gap-[30px] text-grey font-medium">
-            <a href="#why-mitochron" class="hidden md:block">Why Mitochron?</a>
-            <a href="#about-mitochron" class="hidden md:block">About Us</a>
-            <a href="mailto: mitochron@gmail.com" class="hidden md:block"
+            <a
+              href="#why-mitochron Hub"
+              class="hidden md:block hover:text-primary"
+              >Why Mitochron Hub?</a
+            >
+            <a
+              href="#about-mitochron Hub"
+              class="hidden md:block hover:text-primary"
+              >About Us</a
+            >
+            <a
+              href="mailto: mitochron Hub@gmail.com"
+              class="hidden md:block hover:text-primary"
               >Contact Us</a
             >
             <a href="#contact-form">
-              <button class="px-4 py-2 text-sm text-white rounded bg-primary">
+              <button
+                class="px-4 py-2 text-sm text-white transition-all duration-200 border rounded bg-primary hover:text-primary hover:bg-white hover:border-primary"
+              >
                 Get started
               </button>
             </a>
           </div>
         </nav>
+      </div>
 
-        <!-- hero -->
+      <!-- hero -->
+      <div class="max-w-[1200px] mx-auto w-full px-4">
         <main
-          class="flex flex-col lg:flex-row lg:items-center mt-[29px] gap-6 hero"
+          class="flex flex-col lg:flex-row lg:items-center 3xl:justify-between mt-[29px] gap-10 md:gap-6 bg-[url('/images/hero-art.svg')]"
         >
-          <div class="flex flex-col gap-4 py-[118px] lg:max-w-[632px]">
-            <h1 class="text-3xl font-bold text-grey">
+          <div class="flex flex-col gap-4 lg:py-[118px] lg:max-w-[632px]">
+            <h1 class="text-lg font-bold md:text-3xl text-grey">
               Technology solutions to help your business grow
             </h1>
             <p class="text-md text-body max-w-[508px]">
               We help businesses and individuals deliver a better customer
               experience and protect their brand reputation.
             </p>
-            <button
-              class="px-10 py-2 text-sm font-medium text-white rounded bg-primary w-fit"
+            <a
+              href="#contact-form"
+              class="px-10 py-2 text-sm font-medium text-white transition-all duration-200 border rounded w-fit bg-primary hover:text-primary hover:bg-white hover:border-primary"
             >
-              Join Mitochron
-            </button>
+              Join Mitochron Hub
+            </a>
           </div>
           <img
             src="./images/hero.png"
-            alt="smiling woman writing notes on tablet digital device"
-            class="hidden lg:block lg:absolute w-[40%] xl:w-fit lg:right-0 mix-blend-luminosity 3xl:relative"
+            alt="cross armed woman smiling"
+            class="hidden lg:block lg:absolute w-[40%] lg:right-0 mix-blend-luminosity 3xl:relative"
           />
           <img
             src="./images/hero-full.png"
-            alt="smiling woman writing notes on tablet digital device"
+            alt="cross armed woman smiling"
             class="block lg:hidden mix-blend-luminosity"
           />
         </main>
 
-        <!-- what does mitochron provide -->
+        <!-- what does mitochron Hub provide -->
         <section
-          id="why-mitochron"
-          class="flex flex-col gap-8 border-b py-22 sm:gap-18 border-grey-100"
+          id="why-mitochron Hub"
+          class="flex flex-col gap-8 border-b py-14 md:py-22 sm:gap-18 border-grey-100"
         >
-          <h4 class="text-lg font-semibold text-center text-grey">
-            What does Mitochron provide
+          <h4 class="font-semibold text-center text-3md md:text-lg text-grey">
+            What does Mitochron Hub provide
           </h4>
 
           <div
@@ -99,7 +121,7 @@
               <img src="./images/square-icon.svg" alt="" />
               <img src="./images/secondary-rule.svg" alt="" />
               <p class="font-medium text-center text-grey text-base-sm">
-                Customized solutions through innovative and efficient technology
+                Customized solutions through efficient technology
               </p>
             </div>
             <div
@@ -108,8 +130,7 @@
               <img src="./images/square-icon.svg" alt="" />
               <img src="./images/secondary-rule.svg" alt="" />
               <p class="font-medium text-center text-grey text-base-sm">
-                Uniquely tailored solutions that meet clients’ and customers’
-                needs
+                Tailored solutions that meet clients’ and customers’ needs
               </p>
             </div>
             <div
@@ -118,19 +139,22 @@
               <img src="./images/square-icon.svg" alt="" />
               <img src="./images/secondary-rule.svg" alt="" />
               <p class="font-medium text-center text-grey text-base-sm">
-                Full-scale development and maintenance to aid businesses
+                Full-scale development and maintenance
               </p>
             </div>
           </div>
         </section>
 
         <!-- our offerings -->
-        <section id="about-mitochron" class="border-b py-22 border-grey-100">
-          <h2 class="max-w-2xl text-2xl font-bold text-grey">
+        <section
+          id="about-mitochron Hub"
+          class="border-b py-14 md:py-22 border-grey-100"
+        >
+          <h2 class="max-w-2xl text-lg font-bold md:text-2xl text-grey">
             We offer innovative tech products and services.
           </h2>
           <p class="mt-8 text-grey text-md max-w-[812px]">
-            Mitochron supports entrepreneurs and teams in the process of
+            Mitochron Hub supports entrepreneurs and teams in the process of
             building fast, scalable businesses, by providing the right services,
             guidance and support at each step of their journey.
           </p>
@@ -167,9 +191,9 @@
                 <div class="flex flex-col gap-4 -mt-1 max-w-[464px]">
                   <p class="font-semibold text-grey text-2md">What we do</p>
                   <p class="text-md text-body">
-                    We develop and provide new products and services, custom
-                    software solutions, consulting and design services for
-                    businesses across the world.
+                    We develop and provide products and services, software
+                    solutions, consulting, and design services for businesses
+                    across the world.
                   </p>
                 </div>
               </div>
@@ -181,7 +205,7 @@
                   </p>
                   <p class="text-md text-body">
                     The future will include investment in startups and business
-                    ideas but with a hands-on involvement in their development
+                    ideas with a hands-on involvement in their development
                     process.
                   </p>
                 </div>
@@ -191,31 +215,33 @@
         </section>
 
         <!-- meet us -->
-        <section class="border-b py-22 border-grey-100">
-          <h4 class="text-lg font-semibold text-center text-grey">
+        <section class="border-b py-14 md:py-22 border-grey-100">
+          <h4 class="font-semibold text-center text-3md md:text-lg text-grey">
             Meet the Mitochrons
           </h4>
           <div
-            class="flex flex-wrap items-center justify-center gap-8 md:flex-nowrap mt-14"
+            class="flex flex-wrap items-center justify-center gap-8 mt-8 md:flex-nowrap md:mt-14"
           >
             <div class="text-center">
-              <img src="./images/banji-stephen.png" alt="" />
-              <p class="mt-5 font-medium text-md text-grey-800">
-                Banji Stephen
+              <img src="./images/morifeoluwa-jebutu.png" alt="" />
+              <p class="mt-3 font-medium md:mt-5 text-md text-grey-800">
+                Morifeoluwa Jebutu
               </p>
-              <p class="mt-3 text-body">CEO</p>
+              <p class="mt-1 md:mt-2 text-body">Founder</p>
             </div>
             <div class="text-center">
-              <img src="./images/guy-hawkins.png" alt="" />
-              <p class="mt-5 font-medium text-md text-grey-800">Guy Hawkins</p>
-              <p class="mt-3 text-body">Engineering</p>
+              <img src="./images/olusegun-oyesanya.png" alt="" />
+              <p class="mt-3 font-medium md:mt-5 text-md text-grey-800">
+                Olusegun Oyesanya
+              </p>
+              <p class="mt-1 md:mt-2 text-body">Co-founder</p>
             </div>
             <div class="text-center">
-              <img src="./images/esther-howard.png" alt="" />
-              <p class="mt-5 font-medium text-md text-grey-800">
-                Esther Howard
+              <img src="./images/banji-ogunyemi.png" alt="" />
+              <p class="mt-3 font-medium md:mt-5 text-md text-grey-800">
+                Banji Ogunyemi
               </p>
-              <p class="mt-3 text-body">Product</p>
+              <p class="mt-1 md:mt-2 text-body">Co-founder</p>
             </div>
           </div>
         </section>
@@ -223,19 +249,25 @@
         <!-- contact form -->
         <section
           id="contact-form"
-          class="flex flex-wrap items-start justify-between gap-4 border-b md:flex-nowrap py-22 border-grey-100 basis-full"
+          class="flex flex-wrap items-start justify-between gap-4 border-b md:flex-nowrap py-14 md:py-22 border-grey-100 basis-full"
         >
           <div class="md:basis-1/2 md:max-w-[503px]">
-            <h3 class="text-xl font-semibold text-grey">Sounds great?</h3>
-            <h3 class="mt-2 text-xl font-semibold text-grey">
+            <h3 class="text-lg font-semibold md:text-xl text-grey">
+              Sounds great?
+            </h3>
+            <h3 class="text-lg font-semibold md:mt-2 md:text-xl text-grey">
               Get started for free.
             </h3>
             <p class="mt-6 text-grey text-md">
               Tell us how we can help you achieve your business goals. Shoot us
               a mail, or schedule a meeting
-              <a href="#" class="text-primary">here.</a>
+              <a href="#" class="font-medium text-primary">here.</a>
             </p>
-            <img src="./images/form-img.png" alt="" class="mt-8" />
+            <img
+              src="./images/form-img.png"
+              alt="person writing on white paper"
+              class="mt-8"
+            />
           </div>
           <form
             action="https://formsubmit.co/dawobeku@gmail.com"
@@ -302,13 +334,13 @@
                 class="w-[15px] h-[15px] rounded-sm focus-visible:outline-1 focus-visible:outline-brandBlue"
               />
               <span
-                >Yes, I would like to receive emails and updates from
-                Mitochron.</span
+                >Yes, I would like to receive emails and updates from Mitochron
+                Hub.</span
               >
             </label>
 
             <button
-              class="px-4 py-2 mt-8 text-sm text-white rounded bg-primary w-fit"
+              class="px-4 py-2 mt-8 text-sm text-white transition-all duration-200 border rounded w-fit bg-primary hover:text-primary hover:bg-white hover:border-primary"
             >
               Send message
             </button>
@@ -320,16 +352,20 @@
             src="./images/logo.png"
             alt=""
             class="mix-blend-multiply"
-            width="153"
-            height="30"
+            width="209"
+            height="31"
           />
-          <p class="mt-8">4517 Washington Ave. Manchester, Kentucky 39495</p>
-          <p class="mt-4">+23412345678</p>
-          <a href="mailto:mitochron@gmail.com" class="mt-4"
-            >mitochron@gmail.com</a
+          <a href="tel:+234-701-068-0569" class="mt-4">+2347010680569</a>
+          <a href="mailto:mitochronhub@gmail.com" class="mt-4"
+            >mitochronhub@gmail.com</a
           >
           <div class="flex gap-3 mt-6">
-            <a href="#">
+            <a
+              href="https://facebook.com/mitochronhub"
+              target="_blank"
+              noreferrer
+              noopener
+            >
               <img
                 src="./images/facebook.svg"
                 alt="facebook url"
@@ -337,7 +373,12 @@
                 height="32"
               />
             </a>
-            <a href="#">
+            <a
+              href="https://twitter.com/mitochronhub"
+              target="_blank"
+              noreferrer
+              noopener
+            >
               <img
                 src="./images/twitter.svg"
                 alt="twitter url"
@@ -345,7 +386,20 @@
                 height="32"
               />
             </a>
-            <a href="#">
+            <a
+              href="https://instagram.com/mitochronhub_"
+              target="_blank"
+              noreferrer
+              noopener
+            >
+              <img
+                src="./images/instagram.svg"
+                alt="twitter url"
+                width="32"
+                height="32"
+              />
+            </a>
+            <a href="mailto:mitochronhub@gmail.com">
               <img
                 src="./images/email.svg"
                 alt="email url"
@@ -354,7 +408,7 @@
               />
             </a>
           </div>
-          <p class="mt-8">© 2022 Mitochron</p>
+          <p class="mt-8">© 2022 Mitochron Hub</p>
         </footer>
       </div>
     </div>
