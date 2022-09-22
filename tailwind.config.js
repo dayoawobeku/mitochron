@@ -46,7 +46,10 @@ module.exports = {
 
         "2md": ["1.25rem", "30px"], // 20px
 
+        "3md": ["1.5rem"], // 24px
+
         lg: "2rem", // 30px
+
         xl: ["2.5rem", "48px"], // 40px
 
         "2xl": ["2.75rem", "56px"], // 44px

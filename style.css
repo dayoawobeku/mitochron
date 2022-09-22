@@ -28,8 +28,4 @@ html {
   textarea:focus-visible {
     @apply outline outline-1 outline-primary;
   }
-
-  .hero {
-    background-image: url("/images/hero-art.svg");
-  }
 }
