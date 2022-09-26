@@ -38,7 +38,7 @@ module.exports = {
       fontSize: {
         sm: ["0.875rem"], // 14px
 
-        "base-sm": ["0.9375rem", "20px"], // 15px
+        "base-sm": ["0.9375rem", "22px"], // 15px
 
         base: ["1rem", "24px"], // 16px
 
@@ -54,7 +54,7 @@ module.exports = {
 
         "2xl": ["2.75rem", "56px"], // 44px
 
-        "3xl": ["3.5rem", "65px"], // 56px
+        "3xl": "3.5rem", // 56px
       },
     },
   },
