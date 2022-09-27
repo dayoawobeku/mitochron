@@ -1005,9 +1005,9 @@ input:focus-visible,
   color: rgb(45 34 48 / var(--tw-text-opacity));
 }
 
-.text-primary {
+.text-secondary {
   --tw-text-opacity: 1;
-  color: rgb(141 107 147 / var(--tw-text-opacity));
+  color: rgb(237 30 121 / var(--tw-text-opacity));
 }
 
 .underline {
